@@ -16,4 +16,6 @@
      sidebar.remove();
      const content = document.getElementById("pageContent");
      content.classList.remove("content-with-sidebar");
+     const body = document.getElementById("body");
+     body.style.minWidth = "480px";
 })();
