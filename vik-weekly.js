@@ -68,7 +68,7 @@
 
     // Create a bookmarklet button
     const bookmarkletButton = document.createElement('a');
-    bookmarkletButton.innerHTML = 'Bookmarklet';
+    bookmarkletButton.innerHTML = 'Current Week\n(Bookmarklet)';
     bookmarkletButton.href = `javascript:(function() {
   var date = new Date();
   date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);
